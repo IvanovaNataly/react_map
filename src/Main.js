@@ -29,7 +29,6 @@ export default class Main extends Component {
     }
 
     render() {
-        
         return (
             <div className="main" >
                 <aside className="side-bar">

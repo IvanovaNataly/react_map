@@ -1,10 +1,6 @@
 import React, { Component } from "react";
 
 export default class Zoom extends Component {
-    constructor() {
-        super()
-    }
-
     getZoom(e) {
         let newZoom = parseInt(e.target.value);
         this.props.onZoomChanged(newZoom);
